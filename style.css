@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+  font-family: 'Figtree', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: hsl(47, 88%, 63%);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.preview-card {
+  color: hsl(0, 0%, 7%);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.1rem;
+  padding: 22px; /*pendiente modificarlo a 7%*/
+  width: clamp(11rem, 17rem + 5vw, 20rem);
+  box-shadow: 7px 7px 0 #000;
+  text-align: start;
+  border: #000 solid 1.5px;
+}
+.illustration-article {
+  border-radius: 0.7rem;
+  width: clamp(12rem, 17rem + 5vw, 20rem);
+}
+.type {
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  border-radius: 0.2rem;
+  font-size: 16px;
+  font-weight: 800;
+  width: 5rem;
+  margin-top: 7%;
+  padding: 1.5%;
+  text-align: center;
+}
+.date {
+  color: hsl(0, 0%, 7%);
+  font-size: 14px;
+  margin: 10px 0 5px;
+  line-height: 1.5;
+  text-align: left;
+}
+.title {
+  font-size: clamp(20px, 23px, 28px);
+  font-weight: 800;
+}
+.title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+.info{
+  color: hsl(0, 0%, 42%);
+  font-size: clamp(12px, 14px, 16px);
+  line-height: 1.7;
+  text-align: left;
+}
+.mentor{
+  display: flex;
+  align-items: center;
+  margin: 3% 0;
+}
+.mentor>img{
+  padding-right: 3%;
+  width: 35px;
+  height: 35px;
+}
+.mentor>figcaption{
+  font-weight: 800;
+  margin: 0;
+}
+/* Attribution Section */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2%;
+  color: hsl(0, 0%, 7%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
