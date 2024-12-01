@@ -11,7 +11,7 @@ body {
   align-items: center;
   height: 100vh;
 }
-.preview-card {
+.main {
   color: hsl(0, 0%, 7%);
   background-color: hsl(0, 0%, 100%);
   border-radius: 1.1rem;
