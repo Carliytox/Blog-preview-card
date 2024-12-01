@@ -3,19 +3,29 @@ body {
   font-family: 'Figtree', sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 15px;
-  text-align: center;
   background-color: hsl(47, 88%, 63%);
   color: hsl(0, 0%, 7%);
   margin: 0;
-  padding: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-.main{
+.preview-card {
+  color: hsl(0, 0%, 7%);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 300px;
+  width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: start;
+
+}
+.header-image{
+  border-radius: 0.7rem;
+  width: clamp(12rem, 17rem + 5vw, 20rem);
 }
 .type {
   background-color: hsl(47, 88%, 63%);
@@ -34,7 +44,7 @@ body {
   line-height: 1.5;
   text-align: left;
 }
-h1 {
+.h1 {
   display: block;
   font-size: 1.2em;
   margin-block-start: 0.67em;
@@ -43,7 +53,7 @@ h1 {
   margin-inline-end: 0px;
   font-weight: bold;
   unicode-bidi: isolate;
-  text-align: left;
+  text-align: start;
 }
 .title {
   font-size: clamp(20px, 23px, 28px);
@@ -73,15 +83,7 @@ h1 {
   font-weight: 800;
   margin: 0;
 }
-.preview-card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 15px;
-  padding: 20px;
-  max-width: 300px;
-  width: 90%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
+
 
 .qr-image {
   width: 100%;
@@ -90,7 +92,6 @@ h1 {
   border-radius: 10px;
   display: block;
 }
-
 /* Attribution Section */
 .attribution {
   font-size: 11px;
