@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Design Preview](./assets/screenshots/desktop-preview.png)
+![Desktop Design Preview](/assets/images/Screenshot.png)
 
 *Add your own screenshot here if available.*
 
