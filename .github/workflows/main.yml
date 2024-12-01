@@ -18,4 +18,5 @@ jobs:
         with:
           branch: main  
           folder: .   
-
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
